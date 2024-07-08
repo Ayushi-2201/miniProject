@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    text-align: center;
+    background-color: #696D7D;
+}
+.winnerDeclaration{
+    font-size: 6vmin;
+    font-family: 'Bangers', cursive;
+    display: none;
+    color: #F0F4EF;
+}
+h1 {
+    font-family: 'Bangers', cursive;
+    text-decoration: underline;
+    margin-top: 3vmin;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}   
+    
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #F0DCCA;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #CDC6A5;
+    border: none;
+    font-size: 8vmin;
+    color: #6F9289;
+}
+
+.reset {
+    height: 10vmin;
+    width: 18vmin;
+    background-color: #8D9F87;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #F0DCCA;
+    border: none;
+    font-size: 4vmin;
+    color: #6B777F;
+}
